@@ -22,9 +22,6 @@ class Scraper
             if title.nil? || title.strip.empty?
                 next
             end
-            puts title.strip
-
-        
 
             merchant = node.css("a.itemStore").text
             # puts merchant
