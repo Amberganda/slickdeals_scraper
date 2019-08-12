@@ -20,6 +20,25 @@ class Scraper
             title = node.css("a.itemTitle").text
             title = coder.decode(title)
             puts title.strip
+
+            merchant = node.css("a.itemStore").text
+            puts merchant
+
+            price = node.css("div.itemPrice").text.strip.split(" ")
+            puts price
+
+            rating = node.css("span.likesLabel").text.strip
+            puts rating
+
+            plus = node.css("div.priceInfo").text
+            puts plus
+
+
+
+
+
+
+
             puts " "
 
         end
