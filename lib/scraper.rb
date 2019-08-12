@@ -24,20 +24,11 @@ class Scraper
             merchant = node.css("a.itemStore").text
             puts merchant
 
-            price = node.css("div.itemPrice").text.strip.split(" ")
+            price = node.css("div.itemPrice").text.strip#.split(" ").first
             puts price
 
             rating = node.css("span.likesLabel").text.strip
             puts rating
-
-            plus = node.css("div.priceInfo").text
-            puts plus
-
-
-
-
-
-
 
             puts " "
 
