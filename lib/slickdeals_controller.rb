@@ -2,8 +2,10 @@
 class SlickdealsController
 
     def call
-        puts "hello"
-
+        scraper = Scraper.new
+        deals = scraper.deals
+        puts deals
+        
     end
 
 end
