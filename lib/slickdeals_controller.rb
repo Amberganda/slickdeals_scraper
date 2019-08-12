@@ -1,5 +1,5 @@
 
-class Slickdeals
+class SlickdealsController
 
     def call
         puts "hello"
