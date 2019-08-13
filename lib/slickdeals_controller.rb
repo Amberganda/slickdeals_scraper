@@ -1,11 +1,11 @@
 
 class SlickdealsController
-
+    
     def call
         puts "Welcome to slickdeals!"
         puts "To list all of our front page deals, enter 'list all'."
         puts "To list only the items (without price), enter 'list deals'."
-        puts "To get details on a particular item, enter the listed item number (ie. '12')."
+        puts "Enter 'get item' to get details of a particular item"
         puts "To sort deals by price, enter 'sort by price'."
         puts "To exit, enter 'exit'."
 
@@ -31,7 +31,7 @@ class SlickdealsController
             else
                 puts "Did not understand your command. Please try again."
             end
-
+            
         end
         # Deal.all.each do |deal|
         #     puts "#{deal.title} - #{deal.price} - #{deal.price_description}"
@@ -74,9 +74,5 @@ class SlickdealsController
             puts "#{'%.2f' % deal.price}\t\t#{deal.title}"
         end
     end
-
-
-
-
 
 end
