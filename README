@@ -1,0 +1,20 @@
+I created a scraper to scrape the website http://slickdeals.net.
+The scraper gets the deal information and returns it to the user.
+
+Install Instructions: 
+Type bundle install in the top level directory. 
+
+Contributors Guide: 
+Please feel free to contribute to this project. 
+To do so, create a personal fork of the project on Github.
+Clone the fork and get going. 
+When you 'git commit -m', please add what changes you made by enclosing those in "quotes". 
+
+
+
+License: 
+Please see this link to the license for this code. 
+https://github.com/Amberganda/slickdeals_scraper/blob/master/LICENSE
+
+
+
